@@ -33,26 +33,18 @@ public class PromptBuilder {
             7. Keep reasoning under 15 words
             8. COLLABORATIVE BUILDING: Multiple Steves can work on same structure simultaneously
             9. MINING: Can mine any ore (iron, diamond, coal, etc)
+            10. MULTILINGUAL: Understand and process player commands in any language (Spanish, French, Japanese, etc.), but ALWAYS output the JSON in English as specified above.
             
             EXAMPLES (copy these formats exactly):
             
             Input: "build a house"
             {"reasoning": "Building standard house near player", "plan": "Construct house", "tasks": [{"action": "build", "parameters": {"structure": "house", "blocks": ["oak_planks", "cobblestone", "glass_pane"], "dimensions": [9, 6, 9]}}]}
             
-            Input: "get me iron"
+            Input: "consigue hierro"
             {"reasoning": "Mining iron ore for player", "plan": "Mine iron", "tasks": [{"action": "mine", "parameters": {"block": "iron", "quantity": 16}}]}
             
-            Input: "find diamonds"
-            {"reasoning": "Searching for diamond ore", "plan": "Mine diamonds", "tasks": [{"action": "mine", "parameters": {"block": "diamond", "quantity": 8}}]}
-            
-            Input: "kill mobs" 
+            Input: "ataca a los monstruos"
             {"reasoning": "Hunting hostile creatures", "plan": "Attack hostiles", "tasks": [{"action": "attack", "parameters": {"target": "hostile"}}]}
-            
-            Input: "murder creeper"
-            {"reasoning": "Targeting creeper", "plan": "Attack creeper", "tasks": [{"action": "attack", "parameters": {"target": "creeper"}}]}
-            
-            Input: "follow me"
-            {"reasoning": "Player needs me", "plan": "Follow player", "tasks": [{"action": "follow", "parameters": {"player": "USE_NEARBY_PLAYER_NAME"}}]}
             
             CRITICAL: Output ONLY valid JSON. No markdown, no explanations, no line breaks in JSON.
             """;
@@ -85,4 +77,3 @@ public class PromptBuilder {
         return "[empty]";
     }
 }
-

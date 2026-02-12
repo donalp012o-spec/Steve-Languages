@@ -19,6 +19,29 @@ The agents aren't following predefined scripts. They're operating off natural la
 - **Exploration and gathering** with pathfinding and resource location
 - **Collaborative execution** with automatic workload balancing and conflict resolution
 
+ ## 🌎 Multilingual Support
+
+This mod now supports multiple languages for the GUI and has been optimized to understand AI commands in various languages.
+
+### Supported Languages:
+* **Spanish (MX)** - Español (México)
+* **English (UK)** - English (United Kingdom)
+* **Indonesian** - Bahasa Indonesia
+* **Japanese** - 日本語
+* **Chinese (Simplified)** - 简体中文
+* **French** - Français
+* **German** - Deutsch
+* **Italian** - Italiano
+* **Russian** - Русский
+* **Ukrainian** - Українська
+* **Slovak** - Slovenčina
+
+### AI Interaction:
+Steve can now process commands in these languages. For example, you can say:
+* *"Steve, consigue hierro"* (Spanish)
+* *"Steve, mine du fer"* (French)
+* The AI will understand the intent and execute the corresponding action in-game while maintaining the technical JSON format.
+
 ## Quick Start
 
 **You need:**

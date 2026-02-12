@@ -1,5 +1,4 @@
 {
-  "steve.chat.title": "Steve - Compañero IA",
-  "steve.chat.placeholder": "Pídele a Steve que haga algo...",
-  "steve.command.success": "Tarea completada exitosamente, compa."
+  "key.categories.steve": "Steve IA",
+  "key.steve.toggle_gui": "Mostrar/Ocultar Panel de Steve"
 }
